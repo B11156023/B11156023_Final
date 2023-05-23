@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>期末專題</title>
     <style>
+        body{
+            background-color: #D4D4D4;
+            font-family: Arial, sans-serif;
+        }
         header{
             font-size: 48px;
             border:0px solid #000;
@@ -28,6 +32,25 @@
             text-decoration: none;
             font-size: 17px;
         }
+        .f{
+            background-color: #000;
+            overflow: hidden;
+            font-weight:bold;
+        }
+        .f a:link{
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .f a:visited {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
         ul{
             list-style-type:none;
         }
@@ -45,18 +68,17 @@
     </style>
 </head>
 <body>
-    <header>IVE</header>
+    <header id="index">IVE</header>
     <div class="navbar">
-        <a>首頁</a>
-        <a>成員介紹</a>
-        <a>歌曲介紹</a>
+        <a href="index.html">首頁</a>
+        <a href="member.html">成員</a>
+        <a>歌曲</a>
         <a>成就</a>
     </div>
     <article>
-        <h2>介紹</h2>
-        <h4>IVE（韓語：아이브 A i beu；日語：アイヴ A i vu）是由韓國STARSHIP娛樂於2021年推出的六人女子音樂組合，<br>
-            也是該經紀公司繼2016年宇宙少女後時隔五年推出女子偶像團體。成員包括Gaeul、Yujin、Rei、Wonyoung、Liz和Leeseo，<br>
-            並由安俞真擔任隊長，並於2021年12月1日以單曲專輯《ELEVEN》出道。</h4>
+        <h2>團體介紹</h2>
+        <h4>IVE（韓語：아이브 A i beu；日語：アイヴ A i vu）是由韓國STARSHIP娛樂於2021年推出的六人女子音樂組合。</h4>
+        <h4>成員包括Gaeul、Yujin、Rei、Wonyoung、Liz和Leeseo，並由安俞真擔任隊長，並於2021年12月1日以單曲專輯《ELEVEN》出道。</h4>
     </article>
     <ul>
         <li>
@@ -72,12 +94,18 @@
             <img src="after like 團體.jpg"/>
         </li>
         <li>
-            <h2>I AM時期</h2>
-            <h4>kitsch</h4>
+            <h2>kitsch時期</h2>
             <img src="kitsch團體.jpg"/>
-            <h4>I AM</h4>
+        </li>
+        <li>
+            <h2>I AM時期</h2>
             <img src="I AM 團體.jpg"/>
         </li>
     </ul>
+    <div class="f">
+        <footer>
+            <h2><a href="#index">回頂部</a></h2>
+        </footer>
+    </div>
 </body>
 </html>
