@@ -60,6 +60,10 @@
         ul{
             list-style-type:none;
         }
+        .i{
+            float: right; 
+            width: 200px;
+        }
         @media screen and (max-width: 900px) {
             img{ /*文章圖片*/
                 width: 50%;
@@ -70,18 +74,22 @@
                 display: flex;
                 text-align: left;
             }
+            .i {
+                width: 50%;
+                vertical-align: middle;
+            }
         } 
     </style>
 </head>
 <body>
-    <header>IVE</header>
+    <header id="index">IVE</header>
     <div class="navbar">
         <a href="index.html">首頁</a>
         <a href="member.html">成員</a>
         <a href="song.html">歌曲</a>
-        <a>成就</a>
+        <a href="achievement.html">成就</a>
     </div>
-    <img src="Ive logo.png" style="float: right; width: 200px;">
+    <img src="Ive logo.png" class="i">
     <article>
         <h2>團體介紹</h2>
         <h4>IVE（韓語：아이브 A i beu；日語：アイヴ A i vu）是由韓國STARSHIP娛樂於2021年推出的六人女子音樂組合。</h4>
@@ -113,7 +121,7 @@
     </ul>
     <div class="f">
         <footer>
-            <h2><a href="index.html">回頂部</a>
+            <h2><a href="#index">回頂部</a>
         </footer>
     </div>
 </body>
